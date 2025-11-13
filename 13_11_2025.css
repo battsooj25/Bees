@@ -38,6 +38,12 @@ h1 {
     text-decoration: underline;
 }
 
+/* H4 (Bees heading) style */
+h4 {
+    color: red;
+    font-weight: bold;
+}
+
 /* 7. Table heading design */
 table th {
     background-color: orange;
