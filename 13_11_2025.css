@@ -35,6 +35,7 @@ ol {
 .bees-title {
     color: red;
     font-weight: bold;
+    font-size: 30px;  /* YOU CAN CHANGE THE SIZE */
     text-decoration: underline;
 }
 
