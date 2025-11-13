@@ -32,9 +32,9 @@ ol {
     background-color: aquamarine;
 }
 
-/* Only the "Bees" heading is red */
-h1 .bees-title {
+.bees-title {
     color: red;
+    font-weight: bold;
     text-decoration: underline;
 }
 
