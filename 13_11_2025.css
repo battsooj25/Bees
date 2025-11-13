@@ -32,16 +32,10 @@ ol {
     background-color: aquamarine;
 }
 
-/* 6. H1 style */
+/* Only the "Bees" heading is red */
 h1 .bees-title {
     color: red;
     text-decoration: underline;
-}
-
-/* H4 (Bees heading) style */
-h4 {
-    color: red;
-    font-weight: bold;
 }
 
 /* 7. Table heading design */
