@@ -6,6 +6,29 @@
   </head>
 
   <body
-    onload="document.bosy.style.backgroundColor='pink'">
+    onload="document.body.style.backgroundColor='pink'; WelcomeFunction()"
+    onresize="document.body.style.backgroundColor='lightblue'"
+    onkeydown="document.body.style.backgroundColor='white'"
+    onkeyup="document.style.backgroundColor='lightyellow'"
+    >
+
+    <script>
+      function WelcomeFunction() {
+        alert("Welcome!");
+      }
+       function keydownFunction() {
+         document.getElementById("name").style.backgroundColor="yellow";
+       }
+    </script>
+    
+    <h1 
+    onmouseover="style.color='orange'; style.backgroundColor='lightgreen'"
+    onmouseout="style.color='red'; style.backgroundColor=''"
+    >
+  </h1>
+
+    <p>Enter your name:</p>
+    <input type="text" id="name" onkeydown="keydownFunction()">
+    
   </body>
 </html>
