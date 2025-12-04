@@ -95,7 +95,9 @@ Are you a beekeeper?
 
 This web page is right for you! I hope you enjoy it.
     </pre>
-
+    
+<button id="colorBtn" onclick="changeColor()">Change Colors!</button>
+    
      <script>
       function WelcomeFunction() {
         alert("Welcome!");
@@ -106,7 +108,20 @@ This web page is right for you! I hope you enjoy it.
        function keyupFunction() {
            document.getElementById("name").style.backgroundColor="lightblue";
        }
+const colors=["red", "blue" , "green" , "gray"];
+         let index= 0;
+         function changeColor() {
+             const btn = document.getElementById("colorBtn");
+             btn.style.backgroundColor=colors[index];
+
+             index=index+1;
+
+             if (index=== colors.length) {
+                 index=0;
+             }
+         }
     </script>
 
 </body>
 </html>
+
