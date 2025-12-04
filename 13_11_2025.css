@@ -1,4 +1,4 @@
-/* 3. Name & ID design */
+
 p.centered {
     text-indent: 3mm;
     text-align: center;
@@ -12,7 +12,6 @@ em {
     font-weight: bold;
 }
 
-/* 4. Center GitHub icon & link */
 .center-icon img {
     display: inline-block;
     margin: 0 auto;
@@ -22,7 +21,12 @@ em {
     text-align: center;
 }
 
-/* 5. Course list border & background */
+#colorBtn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
 ol {
     border: thick solid purple;
     margin-bottom: 1em;
